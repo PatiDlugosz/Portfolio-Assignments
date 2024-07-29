@@ -83,11 +83,12 @@ h2 {
   font-size: 3.75rem; /* Equivalent to 60px */
   text-transform: uppercase; 
   margin: 0;
+  color: #636363;
 }
 
 h3 {
   font-weight: 500; /* Medium weight */
-  font-size: 2.1rem; /* Equivalent to 28px */
+  font-size: 1.7rem; /* Equivalent to 28px */
   margin: 0;
 }
 
@@ -98,8 +99,8 @@ h3 {
 }
 
 .bodycopy-default {
-  font-weight: 0; /* Book weight */
-  font-size: 1.5rem; /* Equivalent to 22px */
+  font-weight: 100; /* Book weight */
+  font-size: 1.3rem; /* Equivalent to 22px */
   margin: 0;
 }
 
@@ -150,7 +151,7 @@ a:hover {
 }
 
 .active {
-    color: #878787
+    color: #0047FF
 }
 
 button {
@@ -196,6 +197,128 @@ animation-duration: 5s;
   to { transform: rotate(360deg); }
 }
 
+.rotated-headers {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.projects-header {
+  top: 113px;
+  left: 20px;
+}
+
+.the-cliffe-mockup {
+  width: 100%
+}
+
+.projects-container {
+  padding-top: 19.0625rem;
+}
+
+.top-20{
+  padding-top:20px;
+}
+
+.top-200 {
+  padding-top: 200px;
+}
+
+.case-study-link {
+  display: flex;
+  align-items: center;
+}
+
+
+.case-study-link p {
+  margin: 0;
+  padding-right: 10px;
+}
+
+.case-study-link img {
+  margin-left: 5px;
+  height: 1em;
+  margin-top: 20px;
+}
+
+.case-study-link:hover {
+  color:#4A4A4A
+}
+
+.hr-container {
+  grid-column: 2 / span 11; 
+  display: flex;
+  justify-content: flex-end; 
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.custom-hr {
+  width: 100%; 
+  border: none; 
+  border-top: 2px solid black; 
+  padding-top: 20px; 
+  margin-top: 100px;
+}
+
+.wonder-pal-mockup {
+  width: 100%
+}
+
+.ed-gov-mockup {
+  width: 100%;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.pati-and-mike {
+  width: 100%;
+}
+
+.work-in-action {
+  width: 100%;
+  padding-top: 28px;
+}
+
+.top-100 {
+  padding-top: 100px;
+}
+
+.custom-hr-2 {
+  width: 100%; 
+  border: none; 
+  border-top: 2px solid black; 
+  margin-top: 0px; 
+  padding-bottom: 0px;
+  
+}
+
+.top-28 {
+  padding-top: 0px;
+}
+
+.bottom-28 {
+  padding-bottom: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-text {
     color:#0047FF !important;
 }
@@ -235,6 +358,7 @@ footer {
     height: 31px;
     padding-top: 20px;
 }
+
 
 
 
